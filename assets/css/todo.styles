@@ -1,0 +1,31 @@
+:root {
+    --plum: #823D70ff;
+    --dark-red: #861505ff;
+    --palatinate: #4D0645ff;
+    --maroon: #810200ff;
+    --tyrian-purple: #53052Bff;
+    --violet-jtc: #501C49ff;
+    --old-rose: #CF746Fff;
+    --old-rose-2: #B66D75ff;
+    --indian-red: #CB5762ff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+body {
+    height: 100vh;
+    background-image: url("../media/background.jpg");
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Exo, sans-serif;
+}

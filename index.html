@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="./assets/media/heart-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/styles.css" type="text/css">
+    <title>You & Me</title>
+</head>
+<body>
+    <header>
+        <h1>Today is <span id="turn"></span> turn</h1>
+    </header>
+    <main>
+        <section>
+            <div class="box kisses-box">
+                <h2>Kisses I owe you</h2>
+                <div class="counter">
+                    <img id="subKiss" class="minus" src="./assets/media/minus.png" alt="">
+                    <input id="counterKisses" type="number" readonly>
+                    <img id="addKiss" class="plus" src="./assets/media/plus.png" alt="">
+                </div>
+            </div>
+            <div class="box hugs-box">
+                <h2>Hugs I owe you</h2>
+                <div class="counter">
+                    <img id="subHug" class="minus" src="./assets/media/minus.png" alt="">
+                    <input id="counterHugs" type="number" readonly>
+                    <img id="addHug" class="plus" src="./assets/media/plus.png" alt="">
+                </div>
+            </div>
+            <div class="box todo-box">
+                <h2 id="todo-title"><a href="./assets/pages/todo.html">Our To-do List</a></h2>
+            </div>
+            <div class="box hot-box">
+                <h2 id="hot-icon">🥵</h2>
+                <div class="counter">
+                    <img id="subHot" class="minus" src="./assets/media/minus.png" alt="">
+                    <input id="counterHots" type="number" readonly>
+                    <img id="addHot" class="plus" src="./assets/media/plus.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="./assets/js/script.js" type="module"></script>
+</html>
