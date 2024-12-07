@@ -28,7 +28,7 @@ body {
 /* TURN CHECKER */
 
 #turn {
-    color: gold;
+    color: var(--rose-pompadour);
     font-weight: 900;    
     font-size: 2rem;
 }
@@ -40,7 +40,7 @@ h1 {
 /* MAIN SECTION */
 
 main {
-    height: 80vh;
+    height: fit-content;
     width: 80%;
 }
 
@@ -61,6 +61,7 @@ section {
     height: 20%;
     border-bottom: 2px solid  hsl( 0 0% 100% / .3);
     text-align: center;
+    margin: 20px 0;
 }
 
 .hot-box {
