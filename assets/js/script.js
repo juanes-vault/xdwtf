@@ -10,7 +10,7 @@ const dayOfWeek = today.getDay();
 const person = document.getElementById("turn");
 
 if (dayOfWeek % 2 == 0) {
-    person.textContent = "Wiktoria's'";
+    person.textContent = "Wiktoria's";
 } else {
     person.textContent = "Juanes'";
 }
