@@ -23,6 +23,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: Exo, sans-serif;
+    padding: 350px 0px;
 }
 
 /* TURN CHECKER */
@@ -110,7 +111,7 @@ input::-webkit-outer-spin-button {
 }
 
 #hot-icon {
-    font-size: 2rem;
+    font-size: rem;
 }
 
 
@@ -154,3 +155,22 @@ a {
     filter: drop-shadow(-3px 0px 5px rgba(255, 140, 105, 1))
     
 }
+
+/* EMOJI ANIMATION */
+@keyframes caer {
+    0% {
+      transform: translateY(-100px) rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh) rotate(360deg);
+      opacity: 0;
+    }
+}
+
+.emoji {
+    position: absolute;
+    font-size: 30px;
+    animation: caer 4s linear infinite;
+  }
+
